@@ -10,6 +10,7 @@ case class filter_logic(val columnName: String, val compare: String, val columnV
   lazy val column: Column = Catalog.getTableColumn(tableName, columnName)
   var tableName: String = null
   val columnNam1e: String = null
+  val ddd = null
   def filterColumn(): Int = {
     Catalog.getCoulumnIndex(tableName, column)
   }
